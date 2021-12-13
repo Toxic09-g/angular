@@ -1,0 +1,23 @@
+<div class="register-form-container container-fluid col-lg-5" style="margin-left: 35%;">
+    <form action="index.html">
+        <h1 class="form-title">
+            Authorization
+        </h1>
+        <div class="form-fields">
+            <div class="form-field">
+                <input type="text" placeholder="Name" required pattern="[a-zA-Z^а-яА-Я]+" 
+                    title="The name can contain only letters.">
+            </div>
+            <div class="form-field">
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-field">
+                <input type="password" placeholder="Password" required minlength="8" maxlength="128">
+            </div>
+        </div>
+        <div class="form-buttons">
+            <button routerLink="/main" class="button">Sign up</button>    
+        </div>
+        
+    </form>
+</div>
